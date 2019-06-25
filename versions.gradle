@@ -1,0 +1,13 @@
+ext {
+    versions = [
+            compileSdkVersion: 28,
+            minSdkVersion    : 21,
+            targetSdkVersion : 28,
+            versionCode      : 7,
+            versionName      : '1.0.0',
+            library          : [
+                    appcompat: '1.0.2',
+                    lottie   : '3.0.5'
+            ]
+    ]
+}

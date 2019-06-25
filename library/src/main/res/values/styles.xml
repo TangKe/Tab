@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Tab样式-->
+    <style name="Widget.TabLayout" parent="android:Widget">
+        <item name="indicator">@drawable/tab_indicator_centered</item>
+        <item name="tabTextColor">@color/tab_text_selector</item>
+        <item name="tabTextSize">@dimen/tab_text</item>
+        <item name="android:background">@drawable/tab_background</item>
+        <item name="innerPaddingLeft">@dimen/tab_inner_padding</item>
+        <item name="innerPaddingRight">@dimen/tab_inner_padding</item>
+        <item name="tabViewTheme">@style/ThemeOverlay.TabView</item>
+    </style>
+
+    <!--Tab样式, Tab不足的时候, 不均分, 且Tab居中显示-->
+    <style name="Widget.TabLayout.InTitle">
+        <item name="centered">true</item>
+        <item name="tabTextColor">@color/in_title_tab_text_selector</item>
+    </style>
+
+    <!--底部导航样式-->
+    <style name="Widget.TabLayout.Navigation">
+        <item name="indicator">@null</item>
+        <item name="tabTextColor">@color/tab_text_selector</item>
+        <item name="tabTextSize">@dimen/tab_navigation_text</item>
+        <item name="android:background">@drawable/navigation_background</item>
+        <item name="tabViewTheme">@style/ThemeOverlay.TabView.Navigation</item>
+    </style>
+
+    <!--Tab项样式-->
+    <style name="Widget.TabView" parent="android:Widget.TextView">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">17.5dp</item>
+        <item name="android:paddingRight">17.5dp</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!--Tab项样式-->
+    <style name="Widget.TabView.Navigation">
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">50dp</item>
+    </style>
+
+    <!--非公开-->
+    <style name="ThemeOverlay.TabView" parent="">
+        <item name="tabViewStyle">@style/Widget.TabView</item>
+    </style>
+
+    <!--非公开-->
+    <style name="ThemeOverlay.TabView.Navigation" parent="">
+        <item name="tabViewStyle">@style/Widget.TabView.Navigation</item>
+    </style>
+
+    <!--标准Badge-->
+    <style name="Widget.TextView.Badge" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/badge_background</item>
+        <item name="android:textSize">@dimen/tab_navigation_text</item>
+        <item name="android:textColor">@color/tab_badge_text_color</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--反色Badge-->
+    <style name="Widget.TextView.Badge.Inverse">
+        <item name="android:background">@drawable/badge_background_inverse</item>
+        <item name="android:textColor">@color/tab_badge_text_inverse_color</item>
+    </style>
+</resources>

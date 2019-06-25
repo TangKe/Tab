@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/tab_indicator_padding"
+    android:insetRight="@dimen/tab_indicator_padding">
+    <bitmap
+        android:gravity="fill_horizontal|bottom"
+        android:src="@drawable/tab_indicator"/>
+</inset>

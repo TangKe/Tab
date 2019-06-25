@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tabLayoutStyle" format="reference"/>
+    <attr name="tabViewStyle" format="reference"/>
+    <declare-styleable name="TabLayout">
+        <attr name="indicator" format="reference"/>
+        <attr name="centered" format="boolean"/>
+        <attr name="tabTextAppearance" format="reference"/>
+        <attr name="tabViewTheme" format="integer"/>
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="tabTextColor" format="color"/>
+        <attr name="innerPaddingLeft" format="dimension"/>
+        <attr name="innerPaddingRight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimateState">
+        <attr name="android:path"/>
+        <attr name="android:drawable"/>
+        <attr name="android:isRepeatable"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimateStates">
+    </declare-styleable>
+</resources>

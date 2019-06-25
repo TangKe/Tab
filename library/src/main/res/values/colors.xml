@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_badge_text_color">#ffffffff</color>
+    <color name="tab_badge_text_inverse_color">#ffffa90c</color>
+    <color name="tab_badge_background_inverse_color">#ffffffff</color>
+    <color name="tab_badge_background_color">#ffffa90c</color>
+    <color name="tab_badge_stroke_color">#ffffff</color>
+    <color name="tab_text_selected_color">#ff00bc8d</color>
+    <color name="tab_text_color">#ff999999</color>
+    <color name="tab_background_divider_color">#ffe5e5e5</color>
+    <color name="tab_background_color">#ffffffff</color>
+</resources>

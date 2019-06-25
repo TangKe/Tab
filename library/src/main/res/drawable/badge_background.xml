@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/tab_badge_background_color" />
+    <corners android:radius="7.5dp" />
+    <size android:height="15dp" />
+    <stroke
+        android:width="@dimen/tab_line"
+        android:color="@color/tab_badge_stroke_color" />
+    <padding
+        android:bottom="0dp"
+        android:left="2.5dp"
+        android:right="2.5dp"
+        android:top="0dp" />
+</shape>
