@@ -1,9 +1,9 @@
 ext {
     versions = [
             compileSdkVersion: 28,
-            minSdkVersion    : 21,
+            minSdkVersion    : 16,
             targetSdkVersion : 28,
-            versionCode      : 7,
+            versionCode      : 1,
             versionName      : '1.0.0',
             library          : [
                     appcompat: '1.0.2',
